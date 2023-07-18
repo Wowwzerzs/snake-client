@@ -11,9 +11,18 @@ const connect = function () {
     console.log("Server says: ", data);
   });
 
+  // First connect callback
   conn.on("connect", () => {
-    conn.write("Name: ___")
-    console.log("Sucessfully connected to game server")
+    console.log("Successfully connected to game server");
+  });
+
+  // Second connect callback
+  conn.on("connect", () => {
+    conn.write("Name: WOW");
+    // conn.write("Move: up"); // Send the "Move: up" command to the server
+    // setInterval(function () {
+    //   conn.write("Move: up");
+    // }, 50);
   });
 
   // interpret incoming data as text
@@ -22,7 +31,10 @@ const connect = function () {
   return conn;
 };
 
-// console.log("Connecting ...");
-// connect();
-
 module.exports = { connect };
+
+// Supported movement commands
+// "Move: up" - move up one square (unless facing down)
+// "Move: down" - move down one square (unless facing up)
+// "Move: left" - move left one square (unless facing right)
+// "Move: right" - move left one square (unless facing left)
