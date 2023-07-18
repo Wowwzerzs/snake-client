@@ -4,22 +4,20 @@ let connection;
 const handleUserInput = function (key) {
   if (key === "\u0003") {
     process.exit();
-  } else if (connection) {
-    if (key === "w") {
-      connection.write("Move: up");
-    } else if (key === "a") {
-      connection.write("Move: left");
-    } else if (key === "s") {
-      connection.write("Move: down");
-    } else if (key === "d") {
-      connection.write("Move: right");
-    } else if (key === "b") {
-      connection.write("Say: Eat My Dust!");
-    } else if (key === "n") {
-      connection.write("Say: OHH NOO!");
-    } else if (key === "m") {
-      connection.write("Say: GG");
-    }
+  } else if (key === "w") {
+    connection.write("Move: up");
+  } else if (key === "a") {
+    connection.write("Move: left");
+  } else if (key === "s") {
+    connection.write("Move: down");
+  } else if (key === "d") {
+    connection.write("Move: right");
+  } else if (key === "b") {
+    connection.write("Say: Eat My Dust!");
+  } else if (key === "n") {
+    connection.write("Say: OHH NOO!");
+  } else if (key === "m") {
+    connection.write("Say: GG");
   }
 };
 
