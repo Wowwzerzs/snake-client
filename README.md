@@ -14,18 +14,18 @@ Before you can run this client, you will need to be running the server side whic
 
 ### View of connection screen:
 
-!["Connection Screen"](<Screenshot (2).png>))
+!["Connection Screen"](https://github.com/lighthouse-labs/snek-multiplayer/assets/131313586/fd6362a9-3dd6-437e-83f0-60686520bc93)
 
 ### Sending "EAT MY DUST!" to the server:
 
-!["Message: EAT MY DUST!"](https://github.com/Wowwzerzs/snake-client#sending-eat-my-dust-to-the-server)
+!["Message: EAT MY DUST!"](https://github.com/lighthouse-labs/snek-multiplayer/assets/131313586/15ac3c75-7ce6-41ee-9d7b-3cd28743d94e)
 
 ### Sending "OHH NOO!" to the server:
-!["Message: OHH NOO!](https://imgur.com/a/BvydVt0)
+!["Message: OHH NOO!](https://github.com/lighthouse-labs/snek-multiplayer/assets/131313586/e77ab72b-89c0-4e08-8ad5-92b22f16414f)
 
 ### Sending "Good Game!" to the server:
 
-!["Message: Good Game!"](https://imgur.com/a/ZexU7ry)
+!["Message: Good Game!"](https://github.com/lighthouse-labs/snek-multiplayer/assets/131313586/171adc95-7332-4eeb-9db2-2eca5890bc65)
 
 
 
