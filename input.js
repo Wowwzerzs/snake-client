@@ -17,7 +17,7 @@ const handleUserInput = function (key) {
   } else if (key === "n") {
     connection.write("Say: OHH NOO!");
   } else if (key === "m") {
-    connection.write("Say: GG");
+    connection.write("Say: Good Game!");
   }
 };
 
