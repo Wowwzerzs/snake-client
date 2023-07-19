@@ -18,7 +18,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ### Sending "EAT MY DUST!" to the server:
 
-!["Message: EAT MY DUST!"](https://imgur.com/a/2ED1YL3)
+!["Message: EAT MY DUST!"](https://github.com/Wowwzerzs/snake-client#sending-eat-my-dust-to-the-server)
 
 ### Sending "OHH NOO!" to the server:
 !["Message: OHH NOO!](https://imgur.com/a/BvydVt0)
