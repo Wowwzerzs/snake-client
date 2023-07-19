@@ -1,7 +1,7 @@
 let connection;
 
 // Handle user input from stdin
-const handleUserInput = function (key) {
+const handleUserInput = function(key) {
   if (key === "\u0003") {
     process.exit();
   } else if (key === "w") {
@@ -22,7 +22,7 @@ const handleUserInput = function (key) {
 };
 
 // Setup interface to handle user input from stdin
-const setupInput = function (conn) {
+const setupInput = function(conn) {
   connection = conn;
 
   const stdin = process.stdin;
