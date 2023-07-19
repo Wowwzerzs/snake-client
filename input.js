@@ -13,11 +13,11 @@ const handleUserInput = function (key) {
   } else if (key === "d") {
     connection.write("Move: right");
   } else if (key === "b") {
-    connection.write("Say: Eat My Dust!");
+    connection.write("Say: Eat MY Dust!");
   } else if (key === "n") {
     connection.write("Say: OHH NOO!");
   } else if (key === "m") {
-    connection.write("Say: Good Game!");
+    connection.write("Say: GOOD GAME!");
   }
 };
 
