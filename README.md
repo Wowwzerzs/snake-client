@@ -46,9 +46,9 @@ Use W A S D to navigate the snake up, down, left, or right. Eat the red dot to g
 
 ### *Sending Default Messages:*
 
-- Press B to say Eat My Dust!
+- Press B to say EAT MY DUST!
 - Press N to say OHH NOO!
-- Press M to say Good Game!
+- Press M to say GOOD GAME!
 
 
 ## Acknowledgements
