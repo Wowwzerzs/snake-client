@@ -14,7 +14,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ### View of connection screen:
 
-!["Connection Screen"](https://imgur.com/a/XvrDTyI)
+!["Connection Screen"](<Screenshot (2).png>))
 
 ### Sending "EAT MY DUST!" to the server:
 
