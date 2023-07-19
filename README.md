@@ -23,7 +23,7 @@ Before you can run this client, you will need to be running the server side whic
 ### Sending "OHH NOO!" to the server:
 !["Message: OHH NOO!](https://github.com/lighthouse-labs/snek-multiplayer/assets/131313586/e77ab72b-89c0-4e08-8ad5-92b22f16414f)
 
-### Sending "Good Game!" to the server:
+### Sending "GOOD GAME!" to the server:
 
 !["Message: Good Game!"](https://github.com/lighthouse-labs/snek-multiplayer/assets/131313586/171adc95-7332-4eeb-9db2-2eca5890bc65)
 
