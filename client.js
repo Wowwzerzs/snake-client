@@ -1,5 +1,5 @@
 const net = require("net");
-const { IP, PORT, } = require("./constants.js");
+const { IP, PORT, PLAYER_NAME } = require("./constants.js");
 
 
 // establishes a connection with the game server
@@ -16,15 +16,8 @@ const connect = function () {
   // First connect callback
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
-  });
+    conn.write(`Name: ${PLAYER_NAME}`);
 
-  // Second connect callback
-  conn.on("connect", () => {
-    conn.write("Name: WOW");
-    // conn.write("Move: up"); // Send the "Move: up" command to the server
-    // setInterval(function () {
-    //   conn.write("Move: up");
-    // }, 50);
   });
 
   // interpret incoming data as text
